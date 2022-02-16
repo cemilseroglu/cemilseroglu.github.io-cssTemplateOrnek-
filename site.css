@@ -1,0 +1,303 @@
+body
+{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+.navbar-top
+{
+    top:0;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-theme-d2
+{
+    color: #fff;
+    background-color: #000000;
+}
+
+.navbar-left-align
+{
+    text-align: left;
+}
+
+.navbar-bar
+{
+    width: 100%;
+    height: 38.5px;
+    overflow: hidden;
+    white-space: normal;
+    padding: 0px 0px;
+    white-space: normal;
+    border:none;
+    outline: 0;
+    float: left;
+    display: block;
+    position: static;
+}
+
+.navbar-right
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-button
+{
+    white-space: normal;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fa
+{
+    display: inline-block;
+    font:normal normal normal 14px/1 FontAwesome;
+    font-size:inherit;
+    text-rendering: auto;
+    
+}
+
+.navbar-bar-item
+{
+    color: #fff;
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}
+
+.navbar-teal
+{
+    color: #fff;
+    background-color: #009688;
+}
+
+.navbar-margin-right
+{
+    margin-right: 16px;
+}
+
+
+button
+{
+    -webkit-appearance: button;
+    text-transform: none;
+    overflow: visible;
+    font: inherit;
+    margin:0;
+}
+
+.navbar-card-4
+{
+    
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+
+}
+
+.navbar-dropdown-content
+{
+    cursor: auto;
+    color: #000;
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+.navbar-bar-item-right
+{
+    color: #fff;
+    padding: 8px 16px;
+    float: right;
+    /* width: auto; */
+    height: min-content;
+    border: none;
+    display: block;
+    outline: 0;
+    margin-right: 10px;
+}
+
+.navbar-button:hover,.navbar-bar-item-right:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+
+.header-display-container
+{
+    position: relative;
+}
+
+img
+{
+    vertical-align: middle;
+    border-style: none;
+    object-fit: cover; 
+}
+
+
+.header-margin-bottom
+{
+    margin-bottom: 16px;
+}
+.header-container
+{
+    padding: 0.01em 16px;
+}
+.header-display-bottomleft
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.header-theme
+{
+    color: #fff;
+    background-color:#000000;
+}
+.header-xlarge
+{
+    font-size: 24px;
+}
+.header-button
+{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    margin: 0;
+}
+
+.header-button:hover
+{
+    background-color: teal;
+}
+
+.team-center
+{
+    text-align: center;
+}
+
+.team-padding-64
+{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.team-container
+{
+    padding: 0.01em 16px;
+}
+.team-row
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.team-quarter
+{
+    
+    font-size: 24px;
+    margin: 20px 20px;
+}
+.team-circle
+{
+    border-radius: 50%;
+    height: 201px;
+}
+
+.team-quarter:hover
+{
+    opacity: 0.8;
+}
+
+.customer-container
+{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    background-color: #333333;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.main-card
+{
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.main-white
+{
+    color: #000;
+    background-color: #fff;
+}
+
+h4
+{
+    font-size: 20px;
+}
+
+.footer-center
+{
+    text-align: center;
+}
+
+.footer-padding-32
+{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.fa-brands
+{
+    background-color: teal;
+    color: #fff;
+    width: 64.5px;
+    height: 43px;
+    padding-top: 21.5px;
+}
+
+.fa-brands:hover
+{
+    background-color: #fff;
+    color: teal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
